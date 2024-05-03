@@ -8,11 +8,36 @@
 import SwiftUI
 
 struct NumbersView: View {
+    @State private var singleSelection: UUID?
+    
+    let title: String
+    let contacts: [Person]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            List(selection: $singleSelection) {
+                ForEach(contacts) { contact in
+                    Section(header: Text(contact.fullname)) {
+                        HStack {
+                            Image(systemName: "phone")
+                                .foregroundStyle(.blue)
+                            Text(contact.phoneNumber)
+                        }
+                        HStack {
+                            Image(systemName: "tray")
+                                .foregroundStyle(.blue)
+                            Text(contact.email)
+                        }
+                    }
+                }
+            }
+            .listStyle(.plain)
+            .navigationTitle(title)
+        }
     }
 }
 
+
 #Preview {
-    NumbersView()
+    NumbersView(title: "Contact List", contacts: Person.getContactList())
 }
