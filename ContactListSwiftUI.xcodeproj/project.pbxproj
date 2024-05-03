@@ -64,13 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				1A33B2F82BE553C800A11EC6 /* ContactListSwiftUIApp.swift */,
-				1A33B2FA2BE553C800A11EC6 /* ContentView.swift */,
-				1A33B30A2BE557C700A11EC6 /* ContactsView.swift */,
-				1A33B3102BE55CEA00A11EC6 /* ContactsRowView.swift */,
-				1A33B30C2BE557DF00A11EC6 /* ContactDetailView.swift */,
-				1A33B30E2BE557EF00A11EC6 /* NumbersView.swift */,
-				1A33B3082BE555F200A11EC6 /* Person.swift */,
-				1A33B3062BE553E000A11EC6 /* DataStore.swift */,
+				1A33B3122BE5711F00A11EC6 /* Views */,
+				1A33B3132BE5713200A11EC6 /* Models */,
+				1A33B3142BE5713E00A11EC6 /* Stores */,
 				1A33B2FC2BE553C900A11EC6 /* Assets.xcassets */,
 				1A33B2FE2BE553C900A11EC6 /* Preview Content */,
 			);
@@ -83,6 +79,34 @@
 				1A33B2FF2BE553C900A11EC6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1A33B3122BE5711F00A11EC6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1A33B2FA2BE553C800A11EC6 /* ContentView.swift */,
+				1A33B30A2BE557C700A11EC6 /* ContactsView.swift */,
+				1A33B3102BE55CEA00A11EC6 /* ContactsRowView.swift */,
+				1A33B30C2BE557DF00A11EC6 /* ContactDetailView.swift */,
+				1A33B30E2BE557EF00A11EC6 /* NumbersView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1A33B3132BE5713200A11EC6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1A33B3082BE555F200A11EC6 /* Person.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1A33B3142BE5713E00A11EC6 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				1A33B3062BE553E000A11EC6 /* DataStore.swift */,
+			);
+			path = Stores;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
