@@ -11,6 +11,12 @@
 		1A33B2FB2BE553C800A11EC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A33B2FA2BE553C800A11EC6 /* ContentView.swift */; };
 		1A33B2FD2BE553C900A11EC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A33B2FC2BE553C900A11EC6 /* Assets.xcassets */; };
 		1A33B3002BE553C900A11EC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A33B2FF2BE553C900A11EC6 /* Preview Assets.xcassets */; };
+		1A33B3072BE553E000A11EC6 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A33B3062BE553E000A11EC6 /* DataStore.swift */; };
+		1A33B3092BE555F200A11EC6 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A33B3082BE555F200A11EC6 /* Person.swift */; };
+		1A33B30B2BE557C700A11EC6 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A33B30A2BE557C700A11EC6 /* ContactsView.swift */; };
+		1A33B30D2BE557DF00A11EC6 /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A33B30C2BE557DF00A11EC6 /* ContactDetailView.swift */; };
+		1A33B30F2BE557EF00A11EC6 /* NumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A33B30E2BE557EF00A11EC6 /* NumbersView.swift */; };
+		1A33B3112BE55CEA00A11EC6 /* ContactsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A33B3102BE55CEA00A11EC6 /* ContactsRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		1A33B2FA2BE553C800A11EC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1A33B2FC2BE553C900A11EC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A33B2FF2BE553C900A11EC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1A33B3062BE553E000A11EC6 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		1A33B3082BE555F200A11EC6 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		1A33B30A2BE557C700A11EC6 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		1A33B30C2BE557DF00A11EC6 /* ContactDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailView.swift; sourceTree = "<group>"; };
+		1A33B30E2BE557EF00A11EC6 /* NumbersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersView.swift; sourceTree = "<group>"; };
+		1A33B3102BE55CEA00A11EC6 /* ContactsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				1A33B2F82BE553C800A11EC6 /* ContactListSwiftUIApp.swift */,
 				1A33B2FA2BE553C800A11EC6 /* ContentView.swift */,
+				1A33B30A2BE557C700A11EC6 /* ContactsView.swift */,
+				1A33B3102BE55CEA00A11EC6 /* ContactsRowView.swift */,
+				1A33B30C2BE557DF00A11EC6 /* ContactDetailView.swift */,
+				1A33B30E2BE557EF00A11EC6 /* NumbersView.swift */,
+				1A33B3082BE555F200A11EC6 /* Person.swift */,
+				1A33B3062BE553E000A11EC6 /* DataStore.swift */,
 				1A33B2FC2BE553C900A11EC6 /* Assets.xcassets */,
 				1A33B2FE2BE553C900A11EC6 /* Preview Content */,
 			);
@@ -137,7 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A33B30D2BE557DF00A11EC6 /* ContactDetailView.swift in Sources */,
 				1A33B2FB2BE553C800A11EC6 /* ContentView.swift in Sources */,
+				1A33B3112BE55CEA00A11EC6 /* ContactsRowView.swift in Sources */,
+				1A33B3072BE553E000A11EC6 /* DataStore.swift in Sources */,
+				1A33B3092BE555F200A11EC6 /* Person.swift in Sources */,
+				1A33B30F2BE557EF00A11EC6 /* NumbersView.swift in Sources */,
+				1A33B30B2BE557C700A11EC6 /* ContactsView.swift in Sources */,
 				1A33B2F92BE553C800A11EC6 /* ContactListSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
